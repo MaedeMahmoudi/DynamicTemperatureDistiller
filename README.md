@@ -6,31 +6,6 @@ Knowledge Distillation with Dynamic Temperature for Deep Learning Models
 
 Implementation of dynamic temperature-based knowledge distillation for training compact neural networks. This repository includes various distillation methods with a focus on adaptive temperature scheduling.
 
-## Features
-
-- Dynamic temperature adjustment during training
-- Multiple distillation strategies:
-  - Hinton's original KD
-  - Attention-based distillation
-  - Data-free distillation
-  - Dynamic temperature distillation
-- Support for MNIST dataset
-- Easy to extend for custom datasets
-
-## Project Structure
-DynamicTemperatureDistiller/
-├── distillation/
-│ ├── baseDistiller.py
-│ ├── hintonDistiller.py
-│ ├── dynamicDistiller.py
-│ ├── attentionDistiller.py
-│ ├── datafreeDistiller.py
-│ ├── datasetDistiller.py
-│ ├── utils.py
-│ └── requirements.txt
-├── train_mnist.py
-└── README.md
-
 
 ## Installation
 
